@@ -290,7 +290,7 @@ capuser[m.sender.split('@')[0]] = { user: sender, jawaban: jawaban.toLowerCase()
          location: { 
           jpegThumbnail: await reSize(gambar, 200, 200) 
          }, 
-         footer: 'Deffbotz ~ Deff', mentions: [sender] 
+         footer: 'Tata ~ Xt', mentions: [sender] 
          })
 sock.sendMessage(sender, { text : 'Sebutkan kode diatas untuk verifikasi'}) 
          return
